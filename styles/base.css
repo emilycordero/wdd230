@@ -71,8 +71,8 @@ section ul {
 
 footer {
     text-align: center;
-    background: rgb(255, 57, 149);
+    background: rgb(255, 3, 121);
     padding: 20px;
-    color: beige;
+    color: rgb(255, 255, 255);
     font-size: larger;
 }

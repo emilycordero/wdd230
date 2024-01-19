@@ -4,5 +4,5 @@ const d = new Date()
 let currentYear = d.getFullYear();
 
 document.getElementById("year").innerHTML = currentYear;
-document.getElementById("lastModified").innerHTML = Date()
+document.getElementById("lastModified").innerHTML = Date();
 

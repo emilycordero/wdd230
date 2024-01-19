@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: large;
+}
+header {
+    background: rgb(249, 110, 175);
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+}
+header img {
+    max-width: 200px;
+    position: relative;
+}
+header h1 {
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    padding: 10px 80px;
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    
+    font-size: 40px;
+    text-align: center;
+    list-style: none;
+    background-color: rgb(30, 18, 28);
+}
+nav a {
+    display: block;
+    padding: 10px;
+    color:white;
+}
+nav a:hover {
+    color: pink;
+}
+
+main {
+    display: block;
+    text-align: center;
+    padding: auto;
+    margin: 50px;
+}
+section {
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+section .cards {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 80px;
+    grid-template-rows: 80px 80px;
+} 
+section h3 {
+    background: rgb(249, 110, 175);
+    margin: 0;
+}
+section a {
+    color: black;
+    text-decoration: none;
+}
+section a:hover {
+    color: pink;
+}
+section ul {
+    list-style: none;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    background: rgb(249, 110, 175);
+    padding: 20px;
+    color: beige;
+    font-size: larger;
+}

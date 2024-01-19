@@ -4,7 +4,7 @@ body {
     font-size: large;
 }
 header {
-    background: rgb(249, 110, 175);
+    background: rgb(255, 57, 149);
     text-align: center;
     padding-top: 10px;
     position: relative;
@@ -35,7 +35,7 @@ nav a {
     color:white;
 }
 nav a:hover {
-    color: pink;
+    color: rgb(255, 229, 234);
 }
 
 main {
@@ -54,7 +54,7 @@ section .cards {
     grid-template-rows: 80px 80px;
 } 
 section h3 {
-    background: rgb(249, 110, 175);
+    background: rgb(255, 57, 149);
     margin: 0;
 }
 section a {
@@ -71,7 +71,7 @@ section ul {
 
 footer {
     text-align: center;
-    background: rgb(249, 110, 175);
+    background: rgb(255, 57, 149);
     padding: 20px;
     color: beige;
     font-size: larger;

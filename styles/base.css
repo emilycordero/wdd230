@@ -1,21 +1,30 @@
-body {
+* {
     margin: 0;
     padding: 0;
-    font-size: large;
+    box-sizing: border-box;
 }
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Mobile*/
 header {
     background: rgb(255, 57, 149);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     padding-top: 10px;
     position: relative;
 }
+
 header img {
     max-width: 200px;
-    position: relative;
 }
 header h1 {
     font-family: 'Courier New', Courier, monospace;
-    position: absolute;
+    position: sticky;
+    font-size: 2rem;
     display: inline-flex;
     justify-content: center;
     padding: 10px 80px;
@@ -75,4 +84,15 @@ footer {
     padding: 20px;
     color: rgb(255, 255, 255);
     font-size: larger;
+}
+
+/* Larger View */
+@media (min-width: 640px) {
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 100%;
+    }
+    
 }

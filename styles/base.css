@@ -87,12 +87,29 @@ footer {
 }
 
 /* Larger View */
-@media (min-width: 640px) {
+@media (min-width: 800px) {
+
+    nav {
+    
+        font-size: 40px;
+        text-align: center;
+        list-style: none;
+        background-color: rgb(30, 18, 28);
+    }
+    nav a {
+        display: inline-block;
+        padding: 30px;
+        color:white;
+    }
+    nav a:hover {
+        color: rgb(255, 157, 177);
+    }
     nav ul {
         display: flex;
     }
     nav ul li {
         flex: 1 1 100%;
     }
+
     
 }

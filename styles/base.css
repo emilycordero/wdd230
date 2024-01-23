@@ -44,7 +44,7 @@ nav a {
     color:white;
 }
 nav a:hover {
-    color: rgb(255, 229, 234);
+    color: rgb(255, 157, 177);
 }
 
 main {
@@ -71,7 +71,7 @@ section a {
     text-decoration: none;
 }
 section a:hover {
-    color: pink;
+    color: rgb(255, 42, 78);
 }
 section ul {
     list-style: none;
